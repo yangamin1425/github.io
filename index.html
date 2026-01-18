@@ -39,7 +39,7 @@
     <!-- 2) 复制链接 -->
     <button class="btn ghost" id="copyBtn">复制链接</button>
 
-    <div class="linkbox" id="rawLink">https://t.me/anmin_88</div>
+    <div class="linkbox" id="rawLink">https://t.me/ship5568</div>
 
     <div class="tip">
       若点不开：请先点“复制链接”，再粘贴到系统浏览器打开，或直接粘贴到 Telegram 搜索框。<br/>
@@ -49,7 +49,7 @@
 
 <script>
 (function(){
-  const username = "anmin_88";
+  const username = "ship5568";
   const httpsUrl = "https://t.me/" + username;
   const tgScheme = "tg://resolve?domain=" + username;
 
@@ -63,7 +63,7 @@
     const start = Date.now();
     window.location.href = tgScheme;
 
-    // 如果没唤起（多数会停留在页面），1秒后退回网页链接
+    // 如果没唤起（多数会停留在页面），0.9秒后退回网页链接
     setTimeout(function(){
       if (Date.now() - start < 1500) {
         window.location.href = httpsUrl;
